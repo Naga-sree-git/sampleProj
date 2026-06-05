@@ -1,0 +1,24 @@
+git remote add origin https://github.com/Naga-sree-git/ElectronProj.git
+git remote add origin https://github.com/Naga-sree-git/ElectronProj.git
+git branch -M main
+git push -u origin main
+git remote add origin https://github.com/Naga-sree-git/ElectronProj.git
+git branch -M main
+git push -u origin main
+git checkout -b develop - to create new branch
+git push origin develop
+git checkout main
+git pull origin main
+
+//
+# Or add everything (including the new folder)
+git add .
+
+# 4. Commit the changes
+git commit -m "Add new folder with initial files"
+
+# 5. Add the remote repository (only once)
+git remote add origin https://github.com/your-username/your-repo.git
+
+# 6. Push to the remote (main branch)
+git push -u origin production
